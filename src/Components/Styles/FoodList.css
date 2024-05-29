@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.Container {
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.697);
+    border: 3px solid white;
+    border-radius: 20px;
+    color: white;
+}
+.Container:first-child{
+    margin: 125px 20px 20px 20px;
+}
+
+.H2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.H4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    text-align: center;
+}
+
+.FoodList {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: 20px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.FoodList::-webkit-scrollbar {
+    display: none;
+}
+
+.card {
+    flex: 0 0 auto;
+    width: 250px;
+    margin-right: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+.NMDS {
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.FBTN {
+    margin: 20px;
+    width: 80px;
+    height: 40px;
+    outline: none;
+    background-color: #90649c;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .H2 {
+        text-align: center;
+    }
+
+    .FoodList {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        margin: 20px;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .FoodList::-webkit-scrollbar {
+        display: none;
+    }
+}

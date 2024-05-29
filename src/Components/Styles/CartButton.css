@@ -1,0 +1,17 @@
+.CRTBTN{
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid white;
+    outline: none;
+    background-color: #90649c;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.P{
+    text-align: center;
+    color: white;
+    font-weight: 300;
+}
